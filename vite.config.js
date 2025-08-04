@@ -5,6 +5,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    port: 3000, // Replit expects the app to run on port 3000
+    port: 3000,
+    allowedHosts: ['.replit.dev'] // This line allows Replit’s generated hostname
   }
-});
+}
+
