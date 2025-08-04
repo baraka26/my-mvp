@@ -6,7 +6,6 @@ export default defineConfig({
   server: {
     host: true,
     port: 3000,
-    allowedHosts: ['.replit.dev'] // This line allows Replit’s generated hostname
+    allowedHosts: ['.replit.dev'] // This line allows Replit’s generated hostnames
   }
-}
-
+});
