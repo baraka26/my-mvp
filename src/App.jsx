@@ -79,7 +79,6 @@ function AppRoutes() {
 
 export default function App() {
   return (
-    <UserProvider>
       <Router>
         <ErrorBoundary>
           <div className="min-h-screen bg-white text-gray-900">
@@ -88,6 +87,5 @@ export default function App() {
           </div>
         </ErrorBoundary>
       </Router>
-    </UserProvider>
   );
 }
