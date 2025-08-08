@@ -11,6 +11,6 @@ export default defineConfig({
       'localhost',
       '127.0.0.1',
       '2decfc76-db9b-4fb1-ab27-70442a18cfc3-00-n0d6es51ecwk.spock.replit.dev'
-    ],
-  },
+    ]
+  }
 });
