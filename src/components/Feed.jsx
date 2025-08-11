@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext, useCallback } from 'react';
 import FeedCard from '../components/FeedCard';
 import { UserContext } from '../context/UserContext';
-import { LikeButton } from '../components/LikeButton';
+import  LikeButton  from '../components/LikeButton';
 
 /**
  * @typedef {Object} Post
