@@ -1,0 +1,29 @@
+/* ---- Global design tokens ---- */
+:root{
+  --bg: #0b0f15;
+  --card: #121826;
+  --text: #e5eef8;
+  --muted: #9fb2c8;
+  --accent: #4fa3ff;
+  --accent-2: #8b5cf6;
+  --radius: 16px;
+}
+
+/* ---- Reset / base ---- */
+*{ box-sizing:border-box; }
+html,body,#root{ height:100%; }
+body{
+  margin:0;
+  background: radial-gradient(1200px at 10% -10%, rgba(79,163,255,.15), transparent 60%),
+              radial-gradient(1200px at 100% 0%, rgba(139,92,246,.12), transparent 55%),
+              var(--bg);
+  color:var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height:1.5;
+}
+
+/* Simple layout helpers */
+.container{ max-width:880px; margin:0 auto; padding:24px; }
+.card{ background:var(--card); border-radius:var(--radius); padding:16px; box-shadow: 0 8px 30px rgba(0,0,0,.25); }
+.btn{ border:none; border-radius:12px; padding:8px 12px; background:var(--accent); color:#fff; cursor:pointer; }
+.btn.ghost{ background:transparent; outline:1px solid rgba(255,255,255,.08); }
